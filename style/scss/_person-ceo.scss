@@ -1,0 +1,54 @@
+.person-ceo{
+  height: 831px;
+  max-width: 1920px;
+  margin: -190px auto 0;
+  overflow: hidden;
+  background: url(../../img/Ellipse125.png) no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.ceo-container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ceo-img{
+  border-radius: 50%;
+}
+
+.ceo-block{
+  margin-left: 150px;
+}
+
+.person-title{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  color: #1B143D;
+  margin-bottom: 18px;
+}
+
+.gaming-ceo{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 150%;
+  color: #1B143D;
+  margin-bottom: 36px;
+}
+
+.ceo-text{
+  width: 810px;
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1B143D;
+}

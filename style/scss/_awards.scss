@@ -1,0 +1,29 @@
+.awards{
+  width: auto;
+  height: 564px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.awards-title{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #1B143D;
+  margin: 110px auto 114px;
+  text-align: center;
+}
+
+.awards-content{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awards-links{
+  margin: 0 26.5px;
+}

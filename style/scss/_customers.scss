@@ -1,0 +1,30 @@
+.customers{
+  width: auto;
+  height: 692px;
+  background: #F8F8F8;
+  overflow: hidden;
+}
+
+.costomers-title{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #1B143D;
+  margin-top: 110px;
+}
+
+.customers-content{
+  margin: 72px auto 0;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-item{
+  margin: 0 30px 50px;
+}

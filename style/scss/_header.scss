@@ -1,0 +1,262 @@
+.header{
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 2149px;
+  position: relative;
+  background: url(../../img/plastic_hands_11.png) 1013.72px 62.16px no-repeat,
+              url(../../img/Group247.png) 829.46px 446.47px no-repeat,
+              url(../../img/Vector5.svg) 889.62px -22px no-repeat;
+}
+
+.menu{
+  margin: 42px auto 94px;
+  width: 1834px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  margin-left: 80px;
+  width: 817px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.nav-links{
+  font-family: $font;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:first-child .link-line{
+    border: 5px solid #BE1056;
+  }
+
+  &:hover .link-line{
+    border: 5px solid #BE1056;
+  }
+
+  .link-line{
+    width: 120%;
+    border: 5px solid transparent;
+    margin-top: -8px;
+    z-index: -1;
+    transition-duration: 0.5s;
+  }
+}
+
+.contactus-nav{
+  width: 210px;
+  line-height: 60px;
+  text-align: center;
+  font-family: $font;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 41.5px;
+  background-color: transparent;
+  color: #FFFFFF;
+  margin-left: 58px;
+  transition-duration: 0.5s;
+
+  &:hover{
+    background-color: #FFFFFF;
+    color: #1B143D;
+  }
+}
+
+.lanuage{
+  margin-left: 42px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+
+  .language-selected{
+    font-family: $font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    i{
+      margin-left: 9px;
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+  }
+
+  .lang-choose{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 7;
+
+    a{
+      text-decoration: none;
+      font-family: $font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #FFFFFF;
+      display: block;
+      margin-top: 15px;
+    }
+  }
+
+  &:hover .lang-choose{
+    display: block;
+  }
+}
+
+.header-title{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin: 89px 0 62px 252px;
+}
+
+.header-text{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 0 0 0 255px;
+  width: 690px;
+}
+
+.header-hand2{
+  position: absolute;
+  left: 2.67px;
+  top: 557.66px;
+}
+
+.header-transparent-text1{
+  position: absolute;
+  left: -124px;
+  top: 728px;
+  font-family: $font;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.header-transparent-text2{
+  position: absolute;
+  left: 814px;
+  top: 1031px;
+  width: 1000px;
+  font-family: $font;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.1);
+  white-space: nowrap;
+}
+
+.ipad-img{
+  position: absolute;
+  left: 975px;
+  top: 1499px;
+}
+
+.header-title2{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 629px 0 30px 255px;
+}
+
+.header-description{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin:0 0 0 255px;
+  width: 690px;
+}
+
+.header-features{
+  width: 580px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 69px;
+  grid-row-gap: 33px;
+  margin: 82px 0 0 255px;
+}
+
+.feature-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &:first-child{
+    color: #F08335;
+  }
+  &:nth-child(2){
+    color: #2F90BD;
+  }
+  &:nth-child(3){
+    color: #16A89D;
+  }
+  &:last-child{
+    color: #9E65B8;
+  }
+}
+
+.nums{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 150%;
+  color: inherit;
+}
+
+.feature-content{
+  display: block;
+  margin-left: 19px;
+  color: inherit;
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  b{
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: inherit;
+  }
+
+  span{
+    color: #FFFFFF;
+  }
+}

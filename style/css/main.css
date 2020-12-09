@@ -1,0 +1,802 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Exo:wght@300;400;500;600;700;800;900&display=swap");
+/* line 1, H:/Энтерра/Full house/style/scss/_header.scss */
+.header {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 2149px;
+  position: relative;
+  background: url(../../img/plastic_hands_11.png) 1013.72px 62.16px no-repeat, url(../../img/Group247.png) 829.46px 446.47px no-repeat, url(../../img/Vector5.svg) 889.62px -22px no-repeat;
+}
+
+/* line 12, H:/Энтерра/Full house/style/scss/_header.scss */
+.menu {
+  margin: 42px auto 94px;
+  width: 1834px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 21, H:/Энтерра/Full house/style/scss/_header.scss */
+.nav {
+  margin-left: 80px;
+  width: 817px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+/* line 31, H:/Энтерра/Full house/style/scss/_header.scss */
+.nav-links {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 41, H:/Энтерра/Full house/style/scss/_header.scss */
+.nav-links:first-child .link-line {
+  border: 5px solid #BE1056;
+}
+
+/* line 45, H:/Энтерра/Full house/style/scss/_header.scss */
+.nav-links:hover .link-line {
+  border: 5px solid #BE1056;
+}
+
+/* line 49, H:/Энтерра/Full house/style/scss/_header.scss */
+.nav-links .link-line {
+  width: 120%;
+  border: 5px solid transparent;
+  margin-top: -8px;
+  z-index: -1;
+  transition-duration: 0.5s;
+}
+
+/* line 58, H:/Энтерра/Full house/style/scss/_header.scss */
+.contactus-nav {
+  width: 210px;
+  line-height: 60px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 41.5px;
+  background-color: transparent;
+  color: #FFFFFF;
+  margin-left: 58px;
+  transition-duration: 0.5s;
+}
+
+/* line 73, H:/Энтерра/Full house/style/scss/_header.scss */
+.contactus-nav:hover {
+  background-color: #FFFFFF;
+  color: #1B143D;
+}
+
+/* line 79, H:/Энтерра/Full house/style/scss/_header.scss */
+.lanuage {
+  margin-left: 42px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 85, H:/Энтерра/Full house/style/scss/_header.scss */
+.lanuage .language-selected {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+/* line 92, H:/Энтерра/Full house/style/scss/_header.scss */
+.lanuage .language-selected i {
+  margin-left: 9px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+/* line 99, H:/Энтерра/Full house/style/scss/_header.scss */
+.lanuage .lang-choose {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 7;
+}
+
+/* line 105, H:/Энтерра/Full house/style/scss/_header.scss */
+.lanuage .lang-choose a {
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: block;
+  margin-top: 15px;
+}
+
+/* line 117, H:/Энтерра/Full house/style/scss/_header.scss */
+.lanuage:hover .lang-choose {
+  display: block;
+}
+
+/* line 122, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin: 89px 0 62px 252px;
+}
+
+/* line 132, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-text {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 0 0 0 255px;
+  width: 690px;
+}
+
+/* line 143, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-hand2 {
+  position: absolute;
+  left: 2.67px;
+  top: 557.66px;
+}
+
+/* line 149, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-transparent-text1 {
+  position: absolute;
+  left: -124px;
+  top: 728px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+/* line 161, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-transparent-text2 {
+  position: absolute;
+  left: 814px;
+  top: 1031px;
+  width: 1000px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.1);
+  white-space: nowrap;
+}
+
+/* line 175, H:/Энтерра/Full house/style/scss/_header.scss */
+.ipad-img {
+  position: absolute;
+  left: 975px;
+  top: 1499px;
+}
+
+/* line 181, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-title2 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 629px 0 30px 255px;
+}
+
+/* line 191, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-description {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 0 0 0 255px;
+  width: 690px;
+}
+
+/* line 202, H:/Энтерра/Full house/style/scss/_header.scss */
+.header-features {
+  width: 580px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 69px;
+  grid-row-gap: 33px;
+  margin: 82px 0 0 255px;
+}
+
+/* line 212, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 217, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-item:first-child {
+  color: #F08335;
+}
+
+/* line 220, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-item:nth-child(2) {
+  color: #2F90BD;
+}
+
+/* line 223, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-item:nth-child(3) {
+  color: #16A89D;
+}
+
+/* line 226, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-item:last-child {
+  color: #9E65B8;
+}
+
+/* line 231, H:/Энтерра/Full house/style/scss/_header.scss */
+.nums {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 150%;
+  color: inherit;
+}
+
+/* line 240, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-content {
+  display: block;
+  margin-left: 19px;
+  color: inherit;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/* line 250, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-content b {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: inherit;
+}
+
+/* line 259, H:/Энтерра/Full house/style/scss/_header.scss */
+.feature-content span {
+  color: #FFFFFF;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_person-ceo.scss */
+.person-ceo {
+  height: 831px;
+  max-width: 1920px;
+  margin: -190px auto 0;
+  overflow: hidden;
+  background: url(../../img/Ellipse125.png) no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+/* line 11, H:/Энтерра/Full house/style/scss/_person-ceo.scss */
+.ceo-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 18, H:/Энтерра/Full house/style/scss/_person-ceo.scss */
+.ceo-img {
+  border-radius: 50%;
+}
+
+/* line 22, H:/Энтерра/Full house/style/scss/_person-ceo.scss */
+.ceo-block {
+  margin-left: 150px;
+}
+
+/* line 26, H:/Энтерра/Full house/style/scss/_person-ceo.scss */
+.person-title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  color: #1B143D;
+  margin-bottom: 18px;
+}
+
+/* line 36, H:/Энтерра/Full house/style/scss/_person-ceo.scss */
+.gaming-ceo {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 150%;
+  color: #1B143D;
+  margin-bottom: 36px;
+}
+
+/* line 46, H:/Энтерра/Full house/style/scss/_person-ceo.scss */
+.ceo-text {
+  width: 810px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1B143D;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_innovation.scss */
+.innovation {
+  height: 745px;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 8, H:/Энтерра/Full house/style/scss/_innovation.scss */
+.innovation-title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 100px;
+}
+
+/* line 19, H:/Энтерра/Full house/style/scss/_innovation.scss */
+.innovation-img {
+  margin-top: 60px;
+  width: auto;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_exibitions.scss */
+.exibitions {
+  height: 535px;
+  width: 100%;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+/* line 8, H:/Энтерра/Full house/style/scss/_exibitions.scss */
+.exibitions-title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #1B143D;
+  margin: 102px 0 62px;
+  text-align: center;
+}
+
+/* line 20, H:/Энтерра/Full house/style/scss/_exibitions.scss */
+.exibitions-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 990px;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_customers.scss */
+.customers {
+  width: auto;
+  height: 692px;
+  background: #F8F8F8;
+  overflow: hidden;
+}
+
+/* line 8, H:/Энтерра/Full house/style/scss/_customers.scss */
+.costomers-title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #1B143D;
+  margin-top: 110px;
+}
+
+/* line 19, H:/Энтерра/Full house/style/scss/_customers.scss */
+.customers-content {
+  margin: 72px auto 0;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 28, H:/Энтерра/Full house/style/scss/_customers.scss */
+.customers-item {
+  margin: 0 30px 50px;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_awards.scss */
+.awards {
+  width: auto;
+  height: 564px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+/* line 8, H:/Энтерра/Full house/style/scss/_awards.scss */
+.awards-title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #1B143D;
+  margin: 110px auto 114px;
+  text-align: center;
+}
+
+/* line 20, H:/Энтерра/Full house/style/scss/_awards.scss */
+.awards-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 27, H:/Энтерра/Full house/style/scss/_awards.scss */
+.awards-links {
+  margin: 0 26.5px;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous {
+  height: 635px;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url(../../img/writeus_background.jpg) no-repeat;
+  padding: 0;
+}
+
+/* line 10, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-filter {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(27, 20, 61, 0.95);
+  padding-top: 50px;
+  border: 0;
+  margin: 0;
+}
+
+/* line 19, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 29, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-form {
+  margin: 60px auto 0;
+  width: 1170px;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* line 38, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 270px;
+}
+
+/* line 48, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.input-wrapper {
+  height: 90px;
+}
+
+/* line 51, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.input-wrapper p {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  background: transparent;
+  padding-left: 32px;
+  color: #BE1056;
+}
+
+/* line 63, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-input {
+  width: 570px;
+  height: 60px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 35px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  background: transparent;
+  padding-left: 32px;
+  outline: 0;
+  color: #FFFFFF;
+}
+
+/* line 79, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-input::placeholder {
+  opacity: 0.5;
+}
+
+/* line 84, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.invalid {
+  border: 1px solid #BE1056;
+}
+
+/* line 88, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-textarea {
+  width: 570px;
+  height: 238px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 35px;
+  background-color: transparent;
+  padding-left: 32px;
+  padding-top: 18px;
+  margin-left: 30px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  outline: 0;
+  color: #FFFFFF;
+  resize: none;
+}
+
+/* line 107, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-textarea::placeholder {
+  opacity: 0.5;
+}
+
+/* line 112, H:/Энтерра/Full house/style/scss/_writetous.scss */
+.writetous-submit {
+  width: 209px;
+  height: 60px;
+  background: #BE1056;
+  border-radius: 42px;
+  border: 1px solid transparent;
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  outline: 0;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts {
+  height: 290px;
+  width: 100%;
+  background-color: #0F0A25;
+}
+
+/* line 7, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-wrap {
+  margin: 0 auto;
+  width: 1277px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* line 15, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-logoetc {
+  margin-top: 56px;
+}
+
+/* line 19, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-logo {
+  margin-bottom: 19px;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 25, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-copyrights {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+/* line 35, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.socialmedia {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 42, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.sm-link {
+  width: 30px;
+  height: 30px;
+  background-color: #BE1056;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+}
+
+/* line 55, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-columns h5 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 6px;
+}
+
+/* line 65, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-columns ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 71, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-columns ul li a {
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: #FFFFFF;
+  transition-duration: 0.5s;
+}
+
+/* line 81, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-columns ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 88, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-columns div {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+/* line 97, H:/Энтерра/Full house/style/scss/_contacts.scss */
+.contacts-columns .tel-adress {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #BE1056;
+  margin-top: 24px;
+}
+
+/* line 1, H:/Энтерра/Full house/style/scss/_footer.scss */
+.footer {
+  height: 190px;
+  background: #1B143D;
+}
+
+/* line 6, H:/Энтерра/Full house/style/scss/_footer.scss */
+.footer-wrap {
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* line 13, H:/Энтерра/Full house/style/scss/_footer.scss */
+.footer-terms {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+/* line 21, H:/Энтерра/Full house/style/scss/_footer.scss */
+.footer-terms a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 27, H:/Энтерра/Full house/style/scss/_footer.scss */
+.footer-license {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 566px;
+  margin: 0 79px 0 75px;
+}
+
+/* line 38, H:/Энтерра/Full house/style/scss/_footer.scss */
+.footer-signes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 44, H:/Энтерра/Full house/style/scss/_footer.scss */
+.sign {
+  margin-right: 21px;
+}
+
+/* line 12, H:/Энтерра/Full house/style/scss/main.scss */
+body {
+  background-color: #1B143D;
+}
+
+/*# sourceMappingURL=main.css.map */

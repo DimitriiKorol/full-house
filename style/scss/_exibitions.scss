@@ -1,0 +1,25 @@
+.exibitions{
+  height: 535px;
+  width: 100%;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.exibitions-title{
+  font-family: $font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 130%;
+  text-align: center;
+  color: #1B143D;
+  margin: 102px 0 62px;
+  text-align: center;
+}
+
+.exibitions-content{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 990px;
+}
